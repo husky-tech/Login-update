@@ -18,8 +18,6 @@ class SignIn01ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var inputEmail: UITextField!
     @IBOutlet weak var inputPass: UITextField!
     
-    let fuck:String = "Fuckin!!"
-    
     let ref = Database.database().reference()
     let storage = Storage.storage()
     
